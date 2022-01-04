@@ -1793,6 +1793,7 @@ Header sortbar
 }
 .mobile-user__name {
     color: var(--text-color);
+    font-size: 1.6rem;
 }
 .mobile-user__close {
     height: 34px;
@@ -1809,12 +1810,14 @@ Header sortbar
 }
 
 .mobile-user__link {
-    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
     color: var(--text-color);
-    padding: 6px;
+    padding: 8px;
 }
 .mobile-user__icon {
-    font-size: 1.5rem;
-    margin-right: 6px;
+    font-size: 2.4rem;
+    margin-right: 8px;
     color:rgb(214, 138, 102);
 }
